@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var tvTotalAmount: TextView
     private lateinit var tvTipDescription: TextView
 
-    // On create (wow)
+    // On create
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
